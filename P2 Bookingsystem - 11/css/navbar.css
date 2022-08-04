@@ -1,0 +1,50 @@
+/* Navigationsbaren */
+/*
+.linje1 {
+  border-right: 3px solid;
+  border-color: white;
+  margin-right: 350px;
+}
+*/
+
+#navbar ul {
+    width: 65%;
+    float: right;
+}
+
+.logo1 {
+    Width: 15%;
+}
+
+#navbar li {
+        display: inline; 
+    }
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+#navbar a{
+text-decoration: none;
+color: #fff;
+padding: 15px;
+font-size: 12px;
+font-family: 'Raleway', Arial, sans-serif;
+}
+
+#navbar .a1:hover,#navbar .a2:hover,#navbar .a3:hover,#navbar .a4:hover,#navbar .a5:hover,#navbar .a6:hover,#navbar .a7:hover,#navbar .a8:hover,#navbar {
+    color: rgb(255, 0, 34);
+    transition: 1.0s; 
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    background-color: #262424;
+    margin: 0px;
+}

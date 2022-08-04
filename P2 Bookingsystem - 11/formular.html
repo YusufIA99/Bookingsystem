@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Booking formular</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section>
+    <article>
+      <form action="kvittering.html" method="GET">  
+
+        <div>
+          <label for="name">Navn <span style="color: red; font-size: 20px;">*</span></label>
+          <input type="text" id="name" placeholder="Fulde Navn" pattern="(?=.*[A-Å])(?=.*[a-å]).{2,}" required>
+        </div>
+        <div>
+          <label for="Email">Email <span style="color: red; font-size: 20px;">*</span></label>
+          <input type="email" id="Email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        </div>
+        <div>
+         <label for="Telefon">Telefon <span style="color: red; font-size: 20px;">*</span></label>
+         <input type="tel" id="Telefon" placeholder="Telefon Nummer" minlenght="8" maxlength="8" title="Burde indeholde 8 tal" required>
+       </div>
+
+        <input type="radio" id="checkbox1" name="Nyhedsbrev">
+        <label for="checkbox1" class="check1">Jeg vil gerne modtage nyhedsbreve fra Exzentriq</label>
+        <br><br>
+        <input type="radio" id="checkbox2" name="Vilkår og betingelser" required>
+        <span for=checkbox2 style="color: red; font-size: 20px;">*</span>
+        <label for="checkbox2" class="check2">Jeg acceptere hermed alle vilkår...
+        eller noget</label>
+        <br><br>
+        <div class="Booking">
+         <button>BOOK NU</button>
+        </div>
+
+      </form>
+    </article>
+  </section>
+</body>
+
+</html>

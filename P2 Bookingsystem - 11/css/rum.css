@@ -1,0 +1,545 @@
+/* Rum ID */
+.Mainbtn {
+    height: 150px;
+    width: 150px;
+}
+
+/* Show */
+.Show {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgb(120, 229, 243), rgb(0, 0, 0));
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  font-family: fantasy;
+  color: rgb(255, 255, 255);
+}
+
+.pcikon3 {
+  width: 50px;
+  height: 40px;
+}
+    .Show:hover {
+      background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 222, 35), rgb(0, 0, 0));
+    cursor: pointer;
+    } 
+  
+    /*@keyframes color-change3 {
+        0% {
+          background-color: rgb(130, 235, 10);
+          background-image: linear-gradient(rgb(130, 235, 10), rgb(218, 218, 218));
+        }
+  
+        50% {
+          background-color: rgb(130, 235, 10);
+          background-image: linear-gradient(rgb(0, 0, 0), rgb(218, 218, 218));
+        }
+  
+      }*/
+  
+/*Show Room Infoknap*/
+.i3 {
+  font-family: Georgia, 'Times New Roman', Times, serif, italic;
+    float: right;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  .i3 p {
+      bottom: 22px; 
+      font-weight: bolder;
+      font-family: solid style;
+      }
+      .infoknap3{
+        background:#F8F8F8;
+        border: 5px solid #DFDFDF;
+        color: #717171;
+        font-size: 13px;
+        height: 100px;
+        width: 200px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        top: -240px;
+        left:-213px;
+        display:none;
+        padding:0 20px;
+        
+    }
+    .infoknap3:after{
+        content:'';
+        position:absolute;
+        bottom:-10px; 
+        width:10px;
+        height:10px;
+        border-bottom:5px solid #dfdfdf;
+        border-right:5px solid #dfdfdf;
+        background:#f8f8f8;
+        left:50%;
+        margin-left:-10px;
+        -moz-transform:rotate(45deg);
+        -webkit-transform:rotate(45deg);
+        transform:rotate(45deg);
+    }
+    .infoknap3{
+        margin:100px;
+        float:left;
+        position:relative;
+        cursor:pointer;
+    }
+    
+    .i3:hover .infoknap3{
+        display:block;
+    }
+.Show p {
+  position: relative;
+  font-size: 125%;
+}
+
+.pcikon3 {
+  width: 50px;
+  height: 40px;
+}
+
+
+/* ignite */
+.Ignite {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(120, 229, 243), rgb(0, 0, 0));
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+  }
+
+  .pcikon2 {
+    width: 50px;
+    height: 40px;
+  }
+      .Ignite:hover {
+        background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 24, 24), rgb(0, 0, 0));
+    cursor: pointer;
+      } 
+    
+     /* @keyframes color-change {
+          0% {
+            background-color: rgb(223, 88, 35);
+            background-image: linear-gradient(red, rgb(218, 218, 218));
+          }
+    
+          50% {
+            background-color: rgb(119, 6, 2);
+            background-image: linear-gradient(rgb(9, 12, 15), rgb(218, 218, 218));
+          }
+    
+        }*/
+    
+  /*Ignite Room Infoknap*/
+  .i2 {
+    font-family: Georgia, 'Times New Roman', Times, serif, italic;
+      float: right;
+      background-color: #fff;
+      color: black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+    }
+    .i2 p {
+        bottom: 22px; 
+        font-weight: bolder;
+        font-family: solid style;
+        }
+        .infoknap2{
+          background:#F8F8F8;
+          border: 5px solid #DFDFDF;
+          color: #717171;
+          font-size: 13px;
+          height: 100px;
+          width: 200px;
+          letter-spacing: 1px;
+          line-height: 30px;
+          position: relative;
+          text-align: center;
+          text-transform: uppercase;
+          top: -240px;
+          left:-213px;
+          display:none;
+          padding:0 20px;
+          
+      }
+      .infoknap2:after{
+          content:'';
+          position:absolute;
+          bottom:-10px; 
+          width:10px;
+          height:10px;
+          border-bottom:5px solid #dfdfdf;
+          border-right:5px solid #dfdfdf;
+          background:#f8f8f8;
+          left:50%;
+          margin-left:-10px;
+          -moz-transform:rotate(45deg);
+          -webkit-transform:rotate(45deg);
+          transform:rotate(45deg);
+      }
+      .infoknap2{
+          margin:100px;
+          float:left;
+          position:relative;
+          cursor:pointer;
+      }
+      
+      .i2:hover .infoknap2{
+          display:block;
+      }
+  .Ignite p {
+    position: relative;
+    font-size: 125%;
+  }
+  
+/* main */
+ .Main {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(120, 229, 243), rgb(0, 0, 0));
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+  }
+
+.Main p {
+    position: relative;
+    font-size: 125%;
+  }
+
+  .pcikon {
+    width: 50px;
+    height: 40px;
+  }
+  .Main:hover {
+    /*animation: 3s ease-in-out infinite color-change1;*/
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(2, 255, 87), rgb(0, 0, 0));
+    cursor: pointer;
+  } 
+
+
+
+  /*@keyframes  color-change1  {
+      0% {
+        background-color: rgb(11, 8, 182);
+        background-image: linear-gradient(rgb(11, 8, 182), rgb(218, 218, 218));
+      }
+
+      50% {
+        background-color: rgb(11, 8, 182);
+        background-image: linear-gradient(black, rgb(218, 218, 218));
+      }
+    }*/
+
+
+    /*main room Infoknap*/
+      .i1 {
+      font-family: Georgia, 'Times New Roman', Times, serif, italic;
+      float: right;
+      background-color: #fff;
+      color: black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+    }
+    /*testknap til booking*/
+    .testknap {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+    }
+    .i1 p {
+    bottom: 22px; 
+    }
+    
+    /* infoknap1*/ 
+       .i1 p {
+        bottom: 22px;
+        font-weight: bolder;
+        font-family: solid style; 
+        }
+        .infoknap1{
+          background:#F8F8F8;
+          border: 5px solid #DFDFDF;
+          color: #717171;
+          font-size: 13px;
+          height: 120px;
+          width: 200px;
+          letter-spacing: 1px;
+          line-height: 30px;
+          position: relative;
+          text-align: center;
+          text-transform: uppercase;
+          top: -260px;
+          left: -213px;
+          display:none;
+          padding:0 20px;
+          
+      }
+      .infoknap1:after{
+          content:'';
+          position:absolute;
+          bottom:-10px; 
+          width:10px;
+          height:10px;
+          border-bottom:5px solid #dfdfdf;
+          border-right:5px solid #dfdfdf;
+          background:#f8f8f8;
+          left:50%;
+          margin-left:-10px;
+          -moz-transform:rotate(45deg);
+          -webkit-transform:rotate(45deg);
+          transform:rotate(45deg);
+      }
+      .infoknap1{
+          margin:100px;
+          float:left;
+          position:relative;
+          cursor:pointer;
+      }
+      
+      .i1:hover .infoknap1{
+          display:block;
+      }
+
+/* ARENA */
+.Arena {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgb(120, 229, 243), rgb(0, 0, 0));
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  font-family: fantasy;
+  color: rgb(255, 255, 255);
+}
+
+.pcikon4 {
+  width: 50px;
+  height: 40px;
+}
+    .Arena:hover {
+      background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(25, 106, 255), rgb(0, 0, 0));
+    cursor: pointer;
+    } 
+  
+    /*@keyframes color-change2 {
+        0% {
+          background-color: rgb(252, 235, 0);
+          background-image: linear-gradient(rgb(252, 235, 0), rgb(218, 218, 218));
+        }
+  
+        50% {
+          background-color: rgb(252, 235, 0);
+          background-image: linear-gradient(rgb(0, 0, 0), rgb(218, 218, 218));
+        }
+  
+      }*/
+  
+/*Arena Room Infoknap*/
+.i4 {
+  font-family: Georgia, 'Times New Roman', Times, serif, italic;
+    float: right;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  .i4 p {
+      bottom: 22px; 
+      font-weight: bolder;
+      font-family: solid style;
+      }
+      .infoknap4{
+        background:#F8F8F8;
+        border: 5px solid #DFDFDF;
+        color: #717171;
+        font-size: 13px;
+        height: 120px;
+        width: 200px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        top: -260px;
+        left:-213px;
+        display:none;
+        padding:0 20px;
+        
+    }
+    .infoknap4:after{
+        content:'';
+        position:absolute;
+        bottom:-10px; 
+        width:10px;
+        height:10px;
+        border-bottom:5px solid #dfdfdf;
+        border-right:5px solid #dfdfdf;
+        background:#f8f8f8;
+        left:50%;
+        margin-left:-10px;
+        -moz-transform:rotate(45deg);
+        -webkit-transform:rotate(45deg);
+        transform:rotate(45deg);
+    }
+    .infoknap4{
+        margin:100px;
+        float:left;
+        position:relative;
+        cursor:pointer;
+    }
+    
+    .i4:hover .infoknap4{
+        display:block;
+    }
+.Arena p {
+  position: relative;
+  font-size: 125%;
+}
+  
+  .pcikon4 {
+    width: 50px;
+    height: 40px;
+  }
+
+
+
+/* Variable Buttons */
+/* Antal besøgende Rubrik */
+.dropbtn1 {
+    width: 187px;
+    height: 30%;
+    background-color:  #F5151D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 6px;
+    margin-top: 10px;
+}
+
+/* Dato Rubrik */
+.datobtn2 {
+    width: 155px;
+    height: 20%;
+    background-color: #F5151D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 6px;
+    margin-top: 10px;
+}
+
+/* Start og Slut Tid Rubrik */
+/* Start Tid Rubrik */
+.starttidbtn3 {
+    width: 155px;
+    background-color:  #F5151D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 6px;
+}
+/* Slut Tid Rubrik */
+.sluttidbtn4 {
+    width: 155px;
+    background-color: #F5151D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+#roomcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.antaldato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/*TEST TIL RBG CIRKEL*/
+.box {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  display: block;
+  border-radius: 50%;
+  background: linear-gradient(0deg, black, #444444);
+  margin-left: 10px;
+}
+
+.glowing::before{
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #ff6600d9, #ad27ad, #bd2681, #ff3300de);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  border-radius: 50%;
+  z-index: -1;
+  animation: glower 20s linear infinite;
+}
+
+@keyframes glower {
+  0% {
+    background-position: 0 0;
+  }
+  
+  50% {
+    background-position: 400% 0;
+  }
+  
+  100% {
+    background-position: 0 0;
+  }
+}
+
