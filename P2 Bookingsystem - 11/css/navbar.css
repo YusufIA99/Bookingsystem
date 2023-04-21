@@ -12,6 +12,11 @@
     float: right;
 }
 
+#navbar ul {
+    width: 65%;
+    float: right;
+}
+
 .logo1 {
     Width: 15%;
 }

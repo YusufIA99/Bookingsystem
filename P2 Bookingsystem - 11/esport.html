@@ -1,27 +1,248 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Exzentriq</title>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-    <body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Exzentriq Booking</title>
+        <link rel="stylesheet" href="css/bookingformular.css">
+        <link rel="stylesheet" href="css/booksystem.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/rum.css">
+        <style>
+
+        </style>
+    </head>
+    <body> 
         <!-- Navigationsbaren -->
         <nav id="navbar">
         <div class="container">
            <a class="logo1" href="index.html"><img src="Logo.png" alt="Exzentriq"></a>
             <ul>
-              <li><a class="a a1" href="faciliteter.html">Faciliteter</a></li>
-              <li><a class="a a2" href="priser.html">Priser</a></li>
-              <li><a class="a a3" href="index.html">Booking</a></li>
-              <li><a class="a a4" href="cafeen.html">Caféen</a></li>
-              <li><a class="a a5" href="kontakt.html">Kontakt</a></li>
-              <li><a class="a a6" href="åbningstider.html">Åbningstider</a></li>
-              <li><a class="a a7" href="fødselsdag.html">Fødselsdag</a></li>
-              <li><a class="a a8" href="esport.html">E-SPORT</a></li>
+                <li><a class="a a1" href="facilitetet.html">Faciliteter</a></li>
+                <li><a class="a a2" href="priser.html">Priser</a></li>
+                <li><a class="a a3" href="Booking.html">Booking</a></li>
+                <li><a class="a a4" href="cafeen.html">Caféen</a></li>
+                <li><a class="a a5" href="kontakt.html">Kontakt</a></li>
+                <li><a class="a a6" href="åbningstider.html">Åbningstider</a></li>
+                <li><a class="a a7" href="fødselsdag.html">Fødselsdag</a></li>
+                <li><a class="a a8" href="esport.html">E-SPORT</a></li>
             </ul>
         </div>
         </nav>
+  <!-- Show, Ignite, Main og Arena Rum -->
+<div class="linje1">      
+  <div id="roomcontainer">
 
-      </body>
-      </html>
+    <div class="box glowing"><span class="Show">
+          <span class="i3"> <p class="p1">i<span class="infoknap3">Show Room er vores computere under konstruktion....</span></p></span>
+          <p>Show</p>
+          <img class="pcikon3" src="pc.png">
+      </span> </div>
+      
+      <div class="box glowing"><span class="Ignite">
+            <span class="i2"> <p class="p1">i<span class="infoknap2">Vores computere i Ignite highend computere...</span></p></span>
+            <p>Ignite</p>
+            <img class="pcikon2" src="pc.png">
+        </span></div>
+
+        <div class="box glowing"> 
+          <span class="Main">
+            <span class="i1"> <p class="p1">i<span class="infoknap1"> Main Room passer lige til dig, 
+                som ønsker at hygge med mindre krævende spil.</span></p></span>
+            <p>Main</p>
+            <img class="pcikon" src="pc.png">
+        </span>
+      </div>
+        
+        <div class="box glowing"> <span class="Arena">
+          <span class="i4"> <p class="p1">i<span class="infoknap4">Arena Room passer lige til dig, 
+              som ønsker at hygge med mindre krævende spil.</span></p></span>
+          <p>Arena</p>
+          <img class="pcikon4" src="pc.png">
+      </span></div>
+
+        
+        
+        </div>
+
+        
+           <!-- Variable Buttons -->
+        <!-- Antal Personer -->
+        <div class="antaldato">   
+        <form id="udfyld">
+            <select class="dropbtn1" name="Antal" placeholder="Antal Timer">
+              <option value="" disabled selected>Antal Timer</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <br>
+        
+
+            <!-- Dato -->
+            <input class="datobtn2" type="date" value="2021-05-11" min="2021-05-11" max="" onkeydown="return false"> 
+         </div>
+            
+           <br>
+           <br>
+
+
+    
+        </form>
+</div>
+<hr class="hrlinje1">
+<br>
+    <!--PLADSVALG HTML-->
+    
+    <input class="starttidbtn3" type="time" min="14:00" max="22:00" value="14:00">
+     <!-- <option value="" disabled selected>Start Tid</option>
+      <option>14:00</option>
+      <option>15:00</option>
+      <option>16:00</option>
+      <option>17:00</option>
+      <option>18:00</option>
+      <option>19:00</option>
+      <option>20:00</option>
+      <option>21:00</option>
+      <option>22:00</option>
+    </select> -->
+    <br>
+
+
+    <div class="roominfo">
+        <div class="pladsinfo ledig"></div>
+        <t1>Ledig</t1>
+    
+        <div class="pladsinfo valg"></div>
+        <t1>Dit valg</t1>
+    
+        <div class="pladsinfo optaget"></div>
+        <t1>Optaget</t1>
+      </div>
+    
+      <div class="caferow"></div>
+      <div class="row" id="1">
+        <div class="rowNumb" id="1"></div>
+        <div class="sideplads" id="1"></div>
+        <div class="sideplads" id="2"></div>
+        <div class="sideplads" id="11"></div>
+        <div class="sideplads" id="12"></div>
+        <div class="sideplads" id="21"></div>
+        <div class="sideplads" id="22"></div>
+        <div class="sideplads" id="31"></div>
+        <div class="sideplads" id="32"></div>
+      </div>
+
+      <div class="row" id="2">
+        <div class="rowNumb" id="2"></div>
+        <div class="sideplads" id="3"></div>
+        <div class="sideplads" id="4"></div>
+        <div class="sideplads" id="13"></div>
+        <div class="sideplads" id="14"></div>
+        <div class="sideplads" id="23"></div>
+        <div class="sideplads" id="24"></div>
+        <div class="sideplads" id="33"></div>
+        <div class="sideplads" id="34"></div>
+      </div>
+
+      <div class="row" id="3">
+        <div class="rowNumb" id="3"></div>
+        <div class="sideplads" id="5"></div>
+        <div class="sideplads" id="6"></div>
+        <div class="sideplads" id="15"></div>
+        <div class="sideplads" id="16"></div>
+        <div class="sideplads" id="25"></div>
+        <div class="sideplads" id="26"></div>
+        <div class="sideplads" id="35"></div>
+        <div class="sideplads" id="36"></div>
+      </div>
+
+      <div class="row" id="4">
+        <div class="rowNumb" id="4"></div>
+        <div class="sideplads" id="7"></div>
+        <div class="sideplads" id="8"></div>
+        <div class="sideplads" id="17"></div>
+        <div class="sideplads" id="18"></div>
+        <div class="sideplads" id="27"></div>
+        <div class="sideplads" id="28"></div>
+        <div class="sideplads" id="37"></div>
+        <div class="sideplads" id="38"></div>
+      </div>
+
+      <div class="row" id="5">
+        <div class="rowNumb" id="5"></div>
+        <div class="sideplads" id="9"></div>
+        <div class="sideplads" id="10"></div>
+        <div class="sideplads" id="19"></div>
+        <div class="sideplads" id="20"></div>
+        <div class="sideplads" id="29"></div>
+        <div class="sideplads" id="30"></div>
+        <div class="sideplads" id="39"></div>
+        <div class="sideplads" id="40"></div>
+      </div>
+
+      <br>
+
+      <div class="row" id="6">
+        <div class="rowNumb" id="6"></div>
+        <div class="sideplads vip" id="41"></div>
+        <div class="sideplads vip" id="42"></div>
+        <div class="sideplads vip" id="43"></div>
+        <div class="sideplads vip" id="44"></div>
+        <div class="sideplads vip" id="45"></div>
+        <div class="sideplads vip" id="46"></div>
+        <div class="sideplads vip" id="47"></div>
+        <div class="sideplads vip" id="48"></div>
+        <div class="sideplads vip" id="49"></div>
+        <div class="sideplads vip" id="50"></div>
+      </div>
+     <br>
+     <br>
+          <hr class="hrlinje2">
+        <!-- Formular -->  
+        <section>
+            <article>
+              <form action="kvittering.html" method="GET"> 
+                <form method="post" action="connect.php"> 
+                <div>
+                  <label for="name">Navn <span style="color: red; font-size: 20px;">*</span></label>
+                  <input type="text" id="name" placeholder="Fulde Navn" pattern="(?=.*[A-Å])(?=.*[a-å]).{2,}" required>
+                </div>
+                <div>
+                  <label for="Email">E-mail <span style="color: red; font-size: 20px;">*</span></label>
+                  <input type="email" id="Email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+                <div>
+                 <label for="Telefon">Telefon <span style="color: red; font-size: 20px;">*</span></label>
+                 <input type="tel" id="Telefon" placeholder="Telefon Nummer" pattern="[0-9]{8}" maxlength="8" title="Burde indeholde 8 tal" required>
+               </div>
+        
+               <form action="/action_page.php">
+                <input type="checkbox" id="checkbox1" name="Nyhedsbrev">
+               <label for="vehicle2"> Jeg vil gerne modtage nyhedsbreve fra Exzentriq</label><br>  
+               
+               <br>
+                 
+                 <input type="checkbox" id="checkbox2" name="Vilkår og betingelser" required>
+                  <span for=checkbox2 style="color: red; font-size: 20px;">*</span>
+                <label for="checkbox1"> Jeg accepterer hermed alle vilkår.</label>
+                 
+                   <br><br>
+                 
+                 <div class="Booking">
+                  <button>BOOK NU</button>
+                </div>
+        
+              </form>
+            </article>
+          </section>
+          <script src="js/main.js"></script>
+
+</body>
+</html>
